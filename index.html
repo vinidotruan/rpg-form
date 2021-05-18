@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- latest -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nes-container is-dark">Nome do meu avatar</header>
+    <main>
+      <div class="nes-container is-dark with-title is-centered">
+        <p class="title">Atributos</p>
+
+        <div
+          style="background-color: #212529; padding: 1rem"
+          class="nes-field is-inline"
+        >
+          <label for="force">Força</label>
+          <input
+            type="number"
+            id="force"
+            class="nes-input is-dark"
+            placeholder="força 0-100"
+          />
+        </div>
+
+        <div
+          style="background-color: #212529; padding: 1rem"
+          class="nes-field is-inline"
+        >
+          <label for="skill">Destreza</label>
+          <input
+            type="number"
+            id="skill"
+            class="nes-input is-dark"
+            placeholder="destreza 0-100"
+          />
+        </div>
+
+        <div
+          style="background-color: #212529; padding: 1rem"
+          class="nes-field is-inline"
+        >
+          <label for="inteligence">Inteligência</label>
+          <input
+            type="number"
+            id="inteligence"
+            class="nes-input is-dark"
+            placeholder="inteligência 0-100"
+          />
+        </div>
+      </div>
+
+      <div class="nes-container is-dark with-title is-centered">
+        <p class="title">História</p>
+
+        <div
+          style="background-color: #212529; padding: 1rem"
+          class="nes-field is-inline"
+        >
+          <label for="name">Nome</label>
+          <input
+            type="text"
+            id="name"
+            class="nes-input is-dark"
+            placeholder="Nome"
+          />
+        </div>
+
+        <div
+          style="background-color: #212529; padding: 1rem"
+          class="nes-field is-inline"
+        >
+          <label for="classD">Classe</label>
+          <div class="nes-select is-dark">
+            <select required id="classD">
+              <option value="" disabled selected hidden>Selecione uma</option>
+              <option value="1">Humano</option>
+              <option value="0">Lobisomen</option>
+              <option value="0">Lobisomen</option>
+              <option value="1">Elfo</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
